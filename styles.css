@@ -1,0 +1,88 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#hero,
+#footer {
+	background: #1F2937;
+}
+
+#hero-main-text {
+	font-size: 48px;
+	font-weight: 900px;
+	color: #F9FaF8;
+}
+
+#hero-sec-text,
+#signupTop {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#logo {
+	width: 120px;
+	height: auto;
+	border-radius: 60px;
+}
+
+#hero-image {
+	width: 800px;
+	height: auto;
+	border-radius: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#header > ul {
+	display: flex;
+	gap: 1rem;
+	font-size: 22px;
+}
+
+#footer > h1 {
+	font-size: 15px;
+	font-weight: 300;
+	color: white;
+}
+
+#header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#hero-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#hero-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex: 1;
+}
+
+#hero {
+	padding: 2rem 8rem;
+}
+
+#hero-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+}
