@@ -91,8 +91,6 @@ ul {
 	max-width: 100%;
 }
 
-/* section2 */
-
 #section2-wrapper {
 	display: flex;
 	flex-direction: column;
@@ -137,8 +135,6 @@ ul {
 	width: 210px;
 }
 
- /* section3 */
-
 #section3 {
 	display: flex;
 	justify-content: safe center;
@@ -158,8 +154,6 @@ ul {
 	font-style: italic;
 	font-weight: 200;
 }
-
-/* section4 */
 
 #section4 {
 	display: flex;
@@ -199,7 +193,6 @@ ul {
   border: 2px solid white;
 	height: 40px;
 }
-/* section5 */
 
 #section5 {
 	display: flex;
