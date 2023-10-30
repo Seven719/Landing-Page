@@ -64,6 +64,7 @@ ul {
 	flex-direction: column;
 	margin: auto;
 	padding-bottom: 40px;
+	max-width: 100rem;
 }
 
 #header {
@@ -80,15 +81,14 @@ ul {
 
 #hero {
 	display: flex;
-	flex: 1;
 	gap: 5rem;
-	flex-wrap: wrap;
 }
 
 #hero-right > img {
-	width: auto;
-	height: 530px;
+	width: 800px;
+	height: auto;
 	border-radius: 20px;
+	max-width: 100%;
 }
 
 /* section2 */
@@ -135,4 +135,79 @@ ul {
 	align-items: center;
 	padding: 0 20px;
 	width: 210px;
+}
+
+ /* section3 */
+
+#section3 {
+	display: flex;
+	justify-content: safe center;
+	background: #E5E7EB;
+}
+
+#the-quote {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	max-width: 700px;
+}
+
+#textbox {
+	font-size: 36px;
+	color: #1F2937;
+	font-style: italic;
+	font-weight: 200;
+}
+
+/* section4 */
+
+#section4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+}
+
+#boxforcta {
+	width: 60rem;
+	border-radius: 10px;
+	border: solid royalblue;
+	background: royalblue;
+	color: white;
+}
+
+#textforcta {
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+}
+
+#section4-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#buttonforcta {
+	font-size: 18px;
+	font-weight: bold;
+	color: #E5E7EB;
+  cursor: pointer;
+  padding: 4px 24px;
+  border-radius: 8px;
+  background: royalblue;
+  border: 2px solid white;
+	height: 40px;
+}
+/* section5 */
+
+#section5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#section5 > p {
+	color: white;
+	font-size: 15px;
 }
